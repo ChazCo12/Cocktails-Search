@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../logo.svg";
+import { FaCocktail } from "react-icons/fa";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-center">
         <Link to="/">
-          <img src={logo} alt="#" className="logo"></img>
+          <FaCocktail className="logo" />
         </Link>
         <ul className="nav-links">
           <li>
